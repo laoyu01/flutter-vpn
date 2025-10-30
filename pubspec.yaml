@@ -1,0 +1,25 @@
+name: my_vpn_app
+description: Flutter desktop VPN client using sing-box
+version: 0.1.0
+publish_to: "none"
+environment:
+sdk: ">=2.18.0 <3.0.0"
+
+
+dependencies:
+flutter:
+sdk: flutter
+http: ^0.13.6
+path_provider: ^2.0.15
+yaml: ^3.1.1
+
+
+dev_dependencies:
+flutter_test:
+sdk: flutter
+
+
+flutter:
+uses-material-design: true
+assets:
+- assets/core/sing-box.exe
